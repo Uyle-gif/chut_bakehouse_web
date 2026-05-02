@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHÚT Bakehouse | Bánh ngọt handmade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header" id="top">
+    <a class="brand" href="#home" aria-label="CHÚT Bakehouse">
+      <img src="image/logo.png" alt="CHÚT Bakehouse logo" />
+      <span>
+        <strong>CHÚT</strong>
+        <small>Bakehouse</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Mở menu">☰</button>
+
+    <nav class="nav">
+      <a href="#home">Trang chủ</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Câu chuyện</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <a class="hotline" href="tel:0346677879">034 6677 879</a>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="label">Artisan bakery</p>
+        <h1>
+          <span>Một chút ngọt,</span>
+          <span>một&nbsp;chút&nbsp;ngon</span>
+        </h1>
+        <p class="hero-desc">Những chiếc bánh mềm, béo nhẹ và chỉn chu từ CHÚT Bakehouse.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">Xem menu</a>
+          <a class="btn outline" href="#contact">Đặt bánh</a>
+        </div>
+        <div class="hero-info">
+          <div>
+            <strong>15+</strong>
+            <span>năm kinh nghiệm</span>
+          </div>
+          <div>
+            <strong>10+</strong>
+            <span>món nổi bật</span>
+          </div>
+          <div>
+            <strong>0%</strong>
+            <span>chất bảo quản</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-card">
+          <img src="image/banh_kem_trung.png" alt="Bánh mì kem trứng" />
+          <div class="badge">Best seller</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-head section" id="menu">
+      <p class="label">Menu hôm nay</p>
+      <h2>Bánh ngọt nổi bật</h2>
+    </section>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Tất cả</button>
+      <button class="filter-btn" data-filter="bread">Bánh mì mềm</button>
+      <button class="filter-btn" data-filter="cream">Bánh su kem</button>
+      <button class="filter-btn" data-filter="cake">Bông lan</button>
+    </div>
+
+    <section class="product-grid section">
+      <article class="product-card" data-category="bread">
+        <div class="product-img">
+          <img src="image/morning_roll.png" alt="Morning Roll" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh mì mềm</span>
+          <h3>Morning Roll</h3>
+          <p>Vỏ bánh mềm, không nhân, xốp dai và có vị ngọt nhẹ.</p>
+          <div class="price">25.000đ / túi 6 bánh</div>
+          <small>Khô ráo 2–3 ngày, tủ mát 3–5 ngày, tủ đông 14–30 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="bread">
+        <div class="product-img">
+          <img src="image/banh_kem_trung.png" alt="Bánh mì kem trứng" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh mì mềm</span>
+          <h3>Bánh mì kem trứng</h3>
+          <p>Bánh mì nhân kem trứng, béo ngọt thanh, mềm thơm dễ ăn.</p>
+          <div class="price">15.000đ / bánh</div>
+          <small>Khô ráo 1–2 ngày hoặc tủ mát 2–3 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="bread">
+        <div class="product-img">
+          <img src="image/banh_cha_bong.png" alt="Bánh mì chà bông" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh mì mềm</span>
+          <h3>Bánh mì chà bông</h3>
+          <p>Bánh mì sốt dầu trứng, chà bông heo, vị mặn ngọt cân bằng.</p>
+          <div class="price">18.000đ / bánh</div>
+          <small>Khô ráo 1–2 ngày hoặc tủ mát 2–3 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="bread">
+        <div class="product-img">
+          <img src="image/banh_pho_mai_nam_viet_quat.png" alt="Bánh phô mai việt quất" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh mì mềm</span>
+          <h3>Bánh phô mai việt quất</h3>
+          <p>Nhân kem béo, chua thanh, mặt parmesan xém thơm nịnh mũi.</p>
+          <div class="price">20.000đ / bánh</div>
+          <small>Khô ráo 1–2 ngày hoặc tủ mát 2–3 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cream">
+        <div class="product-img">
+          <img src="image/su_truyen_thong.png" alt="Su kem truyền thống" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh su kem</span>
+          <h3>Su kem truyền thống</h3>
+          <p>Vỏ su mỏng, nhân kem trứng béo thanh, ăn lạnh ngon hơn.</p>
+          <div class="price">25.000đ / hộp 4 bánh</div>
+          <small>Bảo quản tủ mát 3–5 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cream">
+        <div class="product-img">
+          <img src="image/su_vo_gion.png" alt="Su kem vỏ giòn" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bánh su kem</span>
+          <h3>Su kem vỏ giòn</h3>
+          <p>Lớp vỏ giòn nhẹ, nhân kem vani và socola béo mịn.</p>
+          <div class="price">30.000đ / hộp 4 bánh</div>
+          <small>Bảo quản tủ mát 3–5 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cream">
+        <div class="product-img">
+          <img src="image/flan_caramel.png" alt="Flan Caramel" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Tráng miệng</span>
+          <h3>Flan Caramel</h3>
+          <p>Béo, mịn, thanh mát, hợp dùng sau bữa ăn hoặc ăn nhẹ.</p>
+          <div class="price">20.000đ / hộp 120ml</div>
+          <small>Bảo quản tủ mát 5–7 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cake">
+        <div class="product-img">
+          <img src="image/bong_lan_trung_muoi.png" alt="Bông lan trứng muối" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bông lan</span>
+          <h3>Bông lan trứng muối</h3>
+          <p>Bông lan trứng muối truyền thống kết hợp kem phô mai hiện đại.</p>
+          <div class="price">60.000đ / hộp</div>
+          <small>Bảo quản tủ mát 3–5 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cake">
+        <div class="product-img">
+          <img src="image/bong_lan_cha_bong.png" alt="Bông lan chà bông" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bông lan</span>
+          <h3>Bông lan chà bông</h3>
+          <p>Cốt bánh mềm nhẹ, phủ chà bông mặn ngọt và sốt béo thơm.</p>
+          <div class="price">60.000đ / hộp</div>
+          <small>Bảo quản tủ mát 3–5 ngày.</small>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cake">
+        <div class="product-img">
+          <img src="image/bong_lan_to.png" alt="Bông lan tô" />
+        </div>
+        <div class="product-content">
+          <span class="tag">Bông lan</span>
+          <h3>Bông lan tô</h3>
+          <p>Bông lan không nhân, xốp nhẹ, mềm tan và thơm mùi trứng sữa.</p>
+          <div class="price">25.000đ / hộp</div>
+          <small>Khô ráo 1–2 ngày, tủ mát 3–5 ngày, tủ đông 7–14 ngày.</small>
+        </div>
+      </article>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-img">
+        <img src="image/logo.png" alt="Logo CHÚT Bakehouse" />
+      </div>
+      <div class="story-content">
+        <p class="label">Về CHÚT</p>
+        <h2>Chút chỉn chu trong từng mẻ bánh.</h2>
+        <p>CHÚT Bakehouse là nhà nướng bánh nhỏ với hơn 15 năm kinh nghiệm, hướng đến sản phẩm an toàn, thơm ngon và
+          không dùng chất bảo quản. CHÚT mong muốn mang đến cho mọi người những trải nghiệm vị giác thú vị thông qua từng sản phẩm chỉnh chu.
+</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-info">
+        <span class="eyebrow">CONTACT</span>
+        <h2>Đặt bánh hôm nay</h2>
+
+        <p>Địa chỉ: 60/2 Nguyễn Thị Lửa, Ấp Tây, Xã Tân An Hội, TP. Hồ Chí Minh</p>
+        <p>Email: <a href="mailto:chutbakehouse@gmail.com">chutbakehouse@gmail.com</a></p>
+        <p>
+          Hotline:
+          <a href="tel:0346677879">034.6677.879</a>
+          /
+          <a href="tel:0978306558">097.8306.558</a>
+        </p>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://zalo.me/0346677879" target="_blank">Zalo</a>
+        <a href="https://www.facebook.com/profile.php?id=100066761341798" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
